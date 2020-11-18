@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.auotonomousphonecar">
+    package="com.autonomousphonecar">
 
     <application
         android:allowBackup="true"
@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_autopilot_launcher_round"
         android:supportsRtl="true"
         android:theme="@android:style/Theme.DeviceDefault" >
-        <activity android:name=".MainActivity"
+        <activity android:name="com.autonomousphonecar.MainActivity"
             android:screenOrientation="landscape"
             android:configChanges="keyboardHidden|orientation">
             <intent-filter>

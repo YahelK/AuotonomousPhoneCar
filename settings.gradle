@@ -1,2 +1,5 @@
-rootProject.name='AuotonomousPhoneCar'
+rootProject.name='AutonomousPhoneCar'
+def opencvsdk='C:\\OpenCV-4.4.0-android-sdk'
+include ':opencv'
+project(':opencv').projectDir = new File(opencvsdk + '\\sdk')
 include ':app'
