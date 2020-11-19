@@ -618,9 +618,10 @@ public class MainActivity extends Activity implements CameraBridgeViewBase.CvCam
                 normalizedMagenta.release();
                 normalizedCyan.release();
 
+                Imgproc.pyrUp(dst, dst, new Size(cols, rows));
+
                 break;
 
-                Imgproc.pyrUp(dst, dst, new Size(cols, rows));
 
             case VIEW_MODE_SHAPE:
                 Imgproc.cvtColor(rgba, dst, Imgproc.COLOR_RGBA2RGB);
